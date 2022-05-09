@@ -1,0 +1,15 @@
+Title:
+Submitter:Connor Newbery
+email address:cnewbery@uvic
+
+Summary of bug: The function messageIsValid returns true when it receives an input of
+                7 characters with no hyphens when motorcycle is false
+
+Expected behaviour: 7 characters with no hyphens when motorcycle is false should return false
+
+Actual behaviour: 7 characters with no hyphens when motorcycle is false should returns true
+
+Steps to Reproduce: pass input with exactly 7 characters, no hyphens and motorcycle set to false
+
+Severity: Pretty severe as it'll allow invalid license plates to be made. Easy fix though
+
